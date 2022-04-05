@@ -122,3 +122,8 @@ input{
 #info>h5{
     background-color: rgba(95, 158, 160, 0.555);
 }
+
+h3{
+    margin: 0 10px 0 0;
+    color: #ffffff;
+}
