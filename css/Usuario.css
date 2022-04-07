@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: cadetblue;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: space-around;
+
+}
+
+#menu>div>a{
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+    opacity: 1;
+
+}
+
+#menu>div>a:hover{
+    opacity: 0.7;
+}
+
+.cuerpo{
+    background-image: url("https://st.depositphotos.com/1298561/4733/v/600/depositphotos_47335629-stock-illustration-doodle-pet-background.jpg");
+    min-height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#eslogan{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
+    font-family: fantasy;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: x-large;
+}
+
+#editar{
+    display: flex;
+    justify-content: center;
+}
+
+#misDatos{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    width: 50%;
+}
+
+#misDatos>div{
+    width: 19%;
+}
+
+#izquierda{
+    text-align: right;
+    padding-right: 20px;
+    text-align: start;
+}
+
+#derecha{
+    text-align: left;
+    padding-left: 10px;    
+}
+
+#izquierda>p, #derecha>p{
+    padding: 5px 10px 5px 10px;
+}
+
+#izquierda>p{
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+
+#derecha>p{
+    background-color: #ffffff;
+}
+
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color:salmon;
+
+}
+
+button>a{
+    text-decoration: none;
+    color: #ffffff;   
+}
+
+#titulo{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
