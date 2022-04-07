@@ -73,7 +73,7 @@
 }
 
 #misDatos>div{
-    width: 19%;
+    width: 23%;
 }
 
 #izquierda{
@@ -84,7 +84,7 @@
 
 #derecha{
     text-align: left;
-    padding-left: 10px;    
+    padding-left: 0.3px;
 }
 
 #izquierda>p, #derecha>p{
