@@ -52,3 +52,23 @@ h3{
     font-size: 2rem;
     font-family: fantasy;
 }
+
+#Historial{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin-left: 200px;
+    margin-right: 820px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: xx-large;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 40px;
+}
+
+
+.table{
+    background-color: #ffffff;
+}
