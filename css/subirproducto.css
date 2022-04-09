@@ -79,8 +79,9 @@ button{
     margin-left: 10%;
     margin-top: 10px;
     width: 100px;
+    background-color: orange;
+    border-radius: 10px;
 }
-
 
 #contenido{
     display: flex;
@@ -89,5 +90,10 @@ button{
 
 #subirimagen{
     padding-top: 90px;
-    padding-left: 30px;
+    padding-left: 50px;
+}
+
+#CampoDescripcion{
+    width: 350px;
+    height: 100px;
 }
