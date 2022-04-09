@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.principal{
+    padding:0px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: cadetblue;
+    width: 100%;
+    position: fixed;
+    z-index: 100;      
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+#menu>div>a{
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+    opacity: 1;
+    padding-left: 400px;
+}
+
+#menu>div>a:hover{
+    opacity: 0.7;
+}
+
+#eslogan{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
+    font-family: fantasy;
+}
+
+#cuerpo{    
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px 0px 0px;
+    height: 100vh;
+    /*
+    background-color: #3ea5b3;
+    */
+    background-image: url("https://fondosmil.com/fondo/23216.jpg");
+    
+}
+
+#login{
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 20px 20px 10px 20px;
+    background-color: rgba(96, 149, 149, 0.474);
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+}
+
+.mb-3{    
+    font-size: 1em;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.form-control{
+    font-size: 1em;
+    padding: 10px 10px 10px 10px;
+}
+
+#button{    
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.titulo{
+    font-size: 1.5em;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.a{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+#registrate{
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
