@@ -105,3 +105,15 @@
     align-items: center;
     color: #ffffff;
 }
+
+h6{
+    color: #ff0505;
+}
+
+.error{
+    border: 2px red solid !important;
+}
+.ok{
+    border: 2px rgb(21, 255, 21) solid !important;
+    background-color: #74ffb5;
+}

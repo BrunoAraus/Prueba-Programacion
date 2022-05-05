@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     
     //VALIDO QUE INGRESE ALGO EN EL INPUT
