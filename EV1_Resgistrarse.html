@@ -23,30 +23,34 @@
     </div>
 
     <div id="cuerpo">
-        <form>
-            <div id="Register">
+        <div id="Register">
+            <form action="">
                 <div id="titulo">
                     <label for="Register">Regístrate</label>
                 </div>
                 <div id="subtitulo">
                     <p>Ingresa tus datos personales y disfruta de una experiencia de compra más rápida.</p>
                 </div>
-                <div id="nombre">
+                <div id="nombres">
                     <div class="mb-3">
-                        <input placeholder="Nombre" class="form-control" id="exampleInputPassword1">
+                        <input placeholder="Nombre" class="form-control" id="nombre">
+                        <h6 id="mensaje_nom"></h6>
                     </div>
                     <div class="mb-3">
-                        <input placeholder="Apellido" class="form-control" id="exampleInputPassword1">
+                        <input placeholder="Apellido" class="form-control" id="apellido">
+                        <h6 id="mensaje_ape"></h6>
                     </div>
                 </div>
                 <div class="mb-3">
-                    <input placeholder="Nombre de Usuario" class="form-control" id="exampleInputPassword1">
+                    <input placeholder="Nombre de Usuario" class="form-control" id="usuario">
                 </div>                
                 <div class="mb-3">
-                    <input type="email" placeholder="Correo electrónico" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="email" placeholder="Correo electrónico" class="form-control" id="email" aria-describedby="emailHelp">
+                    <h6 id="mensaje_email"></h6>
                 </div>
                 <div class="mb-3">
-                    <input type="password" placeholder="Contraseña" class="form-control" id="exampleInputPassword1">
+                    <input type="password" placeholder="Contraseña" class="form-control" id="contraseña">
+                    <h6 id="mensaje_con"></h6>
                 </div>
 
                 <div id="checkbox">
@@ -67,8 +71,8 @@
                 <div id="iniciar_sesion">                    
                     <p>¿Ya tienes cuenta?_</p><a href="#" class="a">Inicia sesión</a>
                 </div>
-            </div>       
-        </form>
+            </form>
+        </div>
     </div>
     
 </body>
