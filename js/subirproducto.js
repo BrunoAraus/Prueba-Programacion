@@ -1,53 +1,100 @@
 $(document).ready(function () {
     
     //VALIDO QUE INGRESE ALGO EN EL INPUT
-    $("#nombre").on("input", function () {
-        if ($("#nombre").val() == "") {
-            $("#nombre").addClass("error");
-            $("#nombre").removeClass("ok");
-            $("#mensaje_nom").html("Ese campo es obligatorio!.");
+    $("#CampoNombre").on("input", function () {
+        if ($("#CampoNombre").val() == "") {
+            $("#CampoNombre").addClass("error");
+            $("#CampoNombre").removeClass("ok");
+            $("#mensaje_nom").html("No olvide llenar este campo.");
         } else {
-            $("#nombre").removeClass("error");
-            $("#nombre").addClass("ok");
+            $("#CampoNombre").removeClass("error");
+            $("#CampoNombre").addClass("ok");
             $("#mensaje_nom").html("");
         }
     });
 
-    $("#apellido").on("input", function () {
-        if ($("#apellido").val() == "") {
-            $("#apellido").addClass("error");
-            $("#apellido").removeClass("ok");
-            $("#mensaje_ape").html("Ese campo es obligatorio!.");
+    $("#CampoColor").on("input", function () {
+        if ($("#CampoColor").val() == "") {
+            $("#CampoColor").addClass("error");
+            $("#CampoColor").removeClass("ok");
+            $("#mensaje_color").html("No olvide llenar este campo.");
         } else {
-            $("#apellido").removeClass("error");
-            $("#apellido").addClass("ok");
-            $("#mensaje_ape").html("");
+            $("#CampoColor").removeClass("error");
+            $("#CampoColor").addClass("ok");
+            $("#mensaje_color").html("");
         }
     });
 
-    $("#contraseña").on("input", function () {
-        if($("#contraseña").val() == "") {
-            $("#contraseña").addClass("error");
-            $("#contraseña").removeClass("ok");
-            $("#mensaje_con").html("Ese campo es obligatorio!.");
+    $("#CampoRaza").on("input", function () {
+        if($("#CampoRaza").val() == "") {
+            $("#CampoRaza").addClass("error");
+            $("#CampoRaza").removeClass("ok");
+            $("#mensaje_raza").html("No olvide llenar este campo.");
         } else {
-            $("#contraseña").removeClass("error");
-            $("#contraseña").addClass("ok");
-            $("#mensaje_con").html("");
+            $("#CampoRaza").removeClass("error");
+            $("#CampoRaza").addClass("ok");
+            $("#mensaje_raza").html("");
         }
     }); 
 
-    $("#email").on("input", function () {
-        if ($("#email").val() == "") {
-            $("#email").addClass("error");
-            $("#email").removeClass("ok");
-            $("#mensaje_email").html("Este campo es obligatorio!.");
+    $("#CampoPrecio").on("input", function () {
+        if ($("#CampoPrecio").val() == "") {
+            $("#CampoPrecio").addClass("error");
+            $("#CampoPrecio").removeClass("ok");
+            $("#mensaje_prec").html("No olvide llenar este campo.");
         } else {
-            $("#email").removeClass("error");
-            $("#email").addClass("ok");
-            $("#mensaje_email").html("");
+            $("#CampoPrecio").removeClass("error");
+            $("#CampoPrecio").addClass("ok");
+            $("#mensaje_prec").html("");
         }
     });
 
+    $("#CampoDescuento").on("input", function () {
+        if($("#CampoDescuento").val() == "") {
+            $("#CampoDescuento").addClass("error");
+            $("#CampoDescuento").removeClass("ok");
+            $("#mensaje_descu").html("No olvide llenar este campo.");
+        } else {
+            $("#CampoDescuento").removeClass("error");
+            $("#CampoDescuento").addClass("ok");
+            $("#mensaje_descu").html("");
+        }
+    }); 
+
+    $("#CampoStock").on("input", function () {
+        if($("#CampoStock").val() == "") {
+            $("#CampoStock").addClass("error");
+            $("#CampoStock").removeClass("ok");
+            $("#mensaje_stock").html("No olvide llenar este campo.");
+        } else {
+            $("#CampoStock").removeClass("error");
+            $("#CampoStock").addClass("ok");
+            $("#mensaje_stock").html("");
+        }
+    }); 
+
+    $("#CampoMateriales").on("input", function () {
+        if($("#CampoMateriales").val() == "") {
+            $("#CampoMateriales").addClass("error");
+            $("#CampoMateriales").removeClass("ok");
+            $("#mensaje_mate").html("No olvide llenar este campo.");
+        } else {
+            $("#CampoMateriales").removeClass("error");
+            $("#CampoMateriales").addClass("ok");
+            $("#mensaje_mate").html("");
+        }
+    }); 
+
+    $("#CampoDescripcion").on("input", function () {
+        if($("#CampoDescripcion").val() == "") {
+            $("#CampoDescripcion").addClass("error");
+            $("#CampoDescripcion").removeClass("ok");
+            $("#mensaje_descr").html("No olvide llenar este campo.");
+        } else {
+            $("#CampoDescripcion").removeClass("error");
+            $("#CampoDescripcion").addClass("ok");
+            $("#mensaje_descr").html("");
+        }
+    }); 
 
 });
