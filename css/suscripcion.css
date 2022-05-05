@@ -79,3 +79,16 @@ button{
     margin-left: 48%;
     margin-top: 10px;
 }
+
+h6{
+    color: #ff0505;
+    background-color: rgba(255, 255, 255, 0.747);
+    border-radius: 3px;
+}
+
+.error{
+    border: 2px red solid !important;
+}
+.ok{
+    border: 2px rgb(21, 255, 21) solid !important;
+}
