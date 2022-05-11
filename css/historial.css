@@ -59,6 +59,12 @@ h3{
 
 }
 
+#limpiar{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10% ;
+}
+
 
 .table{
     background-color: #ffffff;
