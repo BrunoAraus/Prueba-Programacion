@@ -83,7 +83,7 @@
 
 .descripcion{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-evenly;
 }
 
 .button{
@@ -96,8 +96,7 @@
 .info{
     width: 70%;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .resumen_compra{
@@ -115,14 +114,24 @@
     font-weight: bold;
 }
 
-h5{
-    padding-bottom: 30px;
-}
-
 #fondo_carrito{
     background-color: rgba(240, 248, 255, 0.966);
     margin: 10px;
     padding: 10px 10px 100px 10px;
     display: flex;
     flex-direction: column;
+}
+
+h5{
+    padding-bottom: 30px;
+}
+
+#disponible{
+    color: green;
+    margin: 0px 0px 0px 0px;
+}
+
+.desc{
+    font-size: small;
+    margin: 0px ;
 }
