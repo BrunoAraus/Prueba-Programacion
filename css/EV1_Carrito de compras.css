@@ -42,7 +42,6 @@
     background-image: url("https://st.depositphotos.com/1298561/4733/v/600/depositphotos_47335629-stock-illustration-doodle-pet-background.jpg");
     min-height: 140vh;
 }
-<<<<<<< HEAD
 
 #fondo_carrito{
     background-color: rgba(240, 248, 255, 0.966);
@@ -52,8 +51,6 @@
     flex-direction: column;
 }
 
-=======
->>>>>>> dcec693651045cace2847c37add5598049a9c6bc
 #fondo_carrito_2{
     margin: 10px;
     padding: 10px 10px 10px 10px;
@@ -123,7 +120,6 @@
 
 h5{
     padding-bottom: 30px;
-<<<<<<< HEAD
 }
 
 #disponible{
@@ -140,8 +136,7 @@ h5{
     text-decoration: none;
     color: black;
 }
-=======
-}
+
 
 #fondo_carrito{
     background-color: rgba(240, 248, 255, 0.966);
@@ -179,5 +174,3 @@ h5{
         width: 100%;
     }
 }
-
->>>>>>> dcec693651045cace2847c37add5598049a9c6bc
