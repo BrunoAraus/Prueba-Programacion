@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
 }
-
 .principal{
     padding:0px 10px 0px 10px;
     display: flex;
@@ -10,16 +9,15 @@
     justify-content: space-between;
     background-color: cadetblue;
     width: 100%;
-    position: fixed;
-    z-index: 100;      
+    position: sticky;
+    top: 0;   
+    z-index: 100;    
 }
-
 #menu{
     display: flex;
     align-items: center;
     width: 40%;
 }
-
 #menu>div>a{
     color: #ffffff;
     font-size: 1rem;
@@ -27,11 +25,9 @@
     opacity: 1;
     padding-left: 40px;
 }
-
 #menu>div>a:hover{
     opacity: 0.7;
 }
-
 #eslogan{
     width: 50%;
     display: flex;
@@ -41,12 +37,12 @@
     font-family: fantasy;
     margin-right: 500px;
 }
-
 #cuerpo{
-    padding-top: 100px;
+    padding-top: 20px;
     background-image: url("https://st.depositphotos.com/1298561/4733/v/600/depositphotos_47335629-stock-illustration-doodle-pet-background.jpg");
     min-height: 140vh;
 }
+<<<<<<< HEAD
 
 #fondo_carrito{
     background-color: rgba(240, 248, 255, 0.966);
@@ -56,6 +52,8 @@
     flex-direction: column;
 }
 
+=======
+>>>>>>> dcec693651045cace2847c37add5598049a9c6bc
 #fondo_carrito_2{
     margin: 10px;
     padding: 10px 10px 10px 10px;
@@ -91,7 +89,7 @@
 
 .descripcion{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between; 
 }
 
 .button{
@@ -104,7 +102,8 @@
 .info{
     width: 70%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: space-between;
 }
 
 .resumen_compra{
@@ -124,6 +123,7 @@
 
 h5{
     padding-bottom: 30px;
+<<<<<<< HEAD
 }
 
 #disponible{
@@ -140,3 +140,44 @@ h5{
     text-decoration: none;
     color: black;
 }
+=======
+}
+
+#fondo_carrito{
+    background-color: rgba(240, 248, 255, 0.966);
+    margin: 10px;
+    padding: 10px 10px 100px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width: 1040px ){
+    .principal{
+        flex-direction: column;
+        align-items: center;
+        position: static;
+    }
+    .cuerpo{
+        padding-top: 5%;
+    }
+    #menu{
+        flex-direction: column;
+    }
+    #destacados{
+        display: none;
+    }
+    #eslogan{
+        margin-right: 0px;
+    }
+    #fondo_carrito_2{
+        flex-direction: column;
+    }
+    #carrito_left{
+        width: 100%;
+    }
+    #carrito_right{
+        width: 100%;
+    }
+}
+
+>>>>>>> dcec693651045cace2847c37add5598049a9c6bc
