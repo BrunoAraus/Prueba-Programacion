@@ -92,3 +92,18 @@ h6{
 .ok{
     border: 2px rgb(21, 255, 21) solid !important;
 }
+@media(max-width: 830px ){
+    .principal{
+        flex-direction: column;
+        align-items: center;
+        position: sticky;
+    }
+    
+    #menu{
+        flex-direction: column;
+        
+    }
+    #destacados{
+        display: none;
+    }
+}

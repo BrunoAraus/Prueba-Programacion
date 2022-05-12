@@ -127,3 +127,28 @@ h6{
     border: 2px rgb(21, 255, 21) solid !important;
     background-color: #74ffb5;
 }
+@media(max-width: 1040px ){
+    .principal{
+        flex-direction: column;
+        align-items: center;
+        position: sticky;
+    }
+    #cuerpo{
+        padding-top: 20px;
+        margin-top: 0px;
+    }
+    #Register{
+        margin-top: 0px;
+        padding-top: 0px;
+        
+    }
+    #menu{
+        flex-direction: column;
+    }
+    #destacados{
+        display: none;
+    }
+    #eslogan{
+        margin-right: 0px;
+    }
+}

@@ -117,3 +117,26 @@ h6{
     border: 2px rgb(21, 255, 21) solid !important;
     background-color: #74ffb5;
 }
+@media(max-width: 1040px ){
+    .principal{
+        flex-direction: column;
+        align-items: center;
+        position: sticky;
+    }
+    .cuerpo{
+        padding-top: 0%;
+    }
+    #login{
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+    #menu{
+        flex-direction: column;
+    }
+    #destacados{
+        display: none;
+    }
+    #eslogan{
+        margin-right: 0px;
+    }
+}
