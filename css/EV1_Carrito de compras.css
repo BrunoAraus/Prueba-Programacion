@@ -125,7 +125,7 @@ h5{
     .principal{
         flex-direction: column;
         align-items: center;
-        position: sticky;
+        position: static;
     }
     .cuerpo{
         padding-top: 5%;
