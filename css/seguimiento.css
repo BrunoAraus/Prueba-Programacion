@@ -45,7 +45,7 @@
 #cuerpo{
     padding-top: 100px;
     background-image: url("https://st.depositphotos.com/1298561/4733/v/600/depositphotos_47335629-stock-illustration-doodle-pet-background.jpg");
-    min-height: 140vh;
+    min-height: 100vh;
 }
 
 #fondo_pagina{
@@ -128,4 +128,21 @@
 .espera{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     opacity: 30%;
+}
+
+@media(max-width: 1040px ){
+    .principal{
+        flex-direction: column;
+        align-items: center;
+        position: static;
+    }
+    .cuerpo{
+        padding-top: 5%;
+    }
+    #menu{
+        flex-direction: column;
+    }
+    #eslogan{
+        margin-right: 0px;
+    }
 }
