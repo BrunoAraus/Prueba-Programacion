@@ -43,9 +43,9 @@
 }
 
 #cuerpo{
-    padding-top: 100px;
+    padding-top: 140px;
     background-image: url("https://st.depositphotos.com/1298561/4733/v/600/depositphotos_47335629-stock-illustration-doodle-pet-background.jpg");
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 #fondo_pagina{
