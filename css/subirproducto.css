@@ -11,41 +11,31 @@
     position: fixed;
     z-index: 100;
 }
-
 #menu{
     display: flex;
     align-items: center;
     width: 30%;
     justify-content: space-around;
-
 }
-
 #menu>div>a{
     color: #ffffff;
     font-size: 1rem;
     text-decoration: none;
     opacity: 1;
-
 }
-
 #menu>div>a:hover{
     opacity: 0.7;
 }
-
 .cuerpo{
     background-image: url("https://st.depositphotos.com/1298561/4733/v/600/depositphotos_47335629-stock-illustration-doodle-pet-background.jpg");
     min-height: 120vh;
     padding-top: 100px;
 }
-
 #registro{
     display: flex;
     align-items: center;
-    flex-direction: column;
-    
-    
+    flex-direction: column; 
 }
-
 #eslogan{
     display: flex;
     justify-content: flex-start;
@@ -53,7 +43,6 @@
     font-size: 2rem;
     font-family: fantasy;
 }
-
 .cuerpo>h1{
     width: 30%;
     margin-left: 35%;
@@ -68,11 +57,9 @@ p{
     border-radius: 5px;
     padding: 0 10px 0 10px;
 }
-
 #registro>p{
-margin-top: 20px;
+    margin-top: 20px;
 }
-
 button{
     display: flex;
     align-items: center;
@@ -82,30 +69,44 @@ button{
     background-color: orange;
     border-radius: 10px;
 }
-
 #contenido{
     display: flex;
     justify-content: center;
 }
-
 #subirimagen{
-    padding-top: 90px;
-    padding-left: 50px;
+    display: flex;
+    justify-content: center;
 }
-
 #CampoDescripcion{
     width: 350px;
     height: 100px;
 }
-
 h6{
     color: #ff0505;
     background-color: rgba(255, 255, 255, 0.514);
 }
-
 .error{
     border: 2px red solid !important;
 }
 .ok{
     border: 2px rgb(21, 255, 21) solid !important;
+}
+
+@media(max-width: 900px ){
+    .principal{
+        flex-direction: column;
+        align-items: center;
+        position: sticky;
+    }
+    
+    #menu{
+        flex-direction: column;
+        
+    }
+    #destacados{
+        display: none;
+    }
+    .cuerpo{
+        padding-top: 30px;
+    }
 }
